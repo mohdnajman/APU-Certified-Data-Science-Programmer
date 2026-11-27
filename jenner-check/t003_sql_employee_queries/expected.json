@@ -1,0 +1,18 @@
+{
+  "_captured_at": "2026-11-27T10:28:40.326854Z",
+  "_captured_run_id": "r_67dc1f83ede14e0a8e4e79104b503a46",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: PROC SQL statement used.",
+    "NOTE: The data set MYLIB_DM.EMPLOYEE_DS has 14 observations and 6 variables."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

@@ -1,0 +1,82 @@
+NOTE: Option OBS changed to 100.
+NOTE: Library MYLIB_DM assigned path=..
+NOTE: DATA MYLIB_DM.TRAINING_DS
+
+NOTE: Processing inline DATALINES (90 lines)
+
+NOTE: The data set MYLIB_DM.TRAINING_DS has 90 observations and 9 variables.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA MYLIB_DM.TESTING_DS
+
+NOTE: Processing inline DATALINES (90 lines)
+
+NOTE: The data set MYLIB_DM.TESTING_DS has 90 observations and 9 variables.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SQL 
+
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: Table MYLIB_DM.TRAINING_GENDER_DS created.
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: Table MYLIB_DM.TRAINING_BK_DS created.
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: 2 row(s) updated in MYLIB_DM.TRAINING_DS.
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: Table MYLIB_DM.TESTING_GENDER_DS created.
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: Table MYLIB_DM.TESTING_BK_DS created.
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: 8 row(s) updated in MYLIB_DM.TESTING_DS.
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: PROC SQL statement used.
+NOTE: PROC STDIZE data=MYLIB_DM.TRAINING_DS
+
+NOTE: PROC STDIZE: Wrote 90 rows to MYLIB_DM.TRAINING_DS
+NOTE: PROC SQL 
+
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: Table MYLIB_DM.TESTING_BK2_DS created.
+NOTE: PROC SQL statement used.
+NOTE: PROC STDIZE data=MYLIB_DM.TESTING_DS
+
+NOTE: PROC STDIZE: Wrote 90 rows to MYLIB_DM.TESTING_DS
+NOTE: PROC SQL 
+
+NOTE: PROC SQL statement used.
+NOTE: PROC LOGISTIC data=MYLIB_DM.TRAINING_DS
+
+WARNING: There is possibly a quasi-complete separation of data points. The maximum likelihood estimate may not exist.
+WARNING: The LOGISTIC procedure continues in spite of the above warning. Results shown are based on the last maximum likelihood iteration. Validity of the model fit is questionable.
+NOTE: Output dataset MYLIB_DM.TRAINING_OUT_DS written with 90 observations.
+NOTE: OUTMODEL dataset MYLIB_DM.TRAINING_LR_MODEL written.

@@ -1,0 +1,100 @@
+NOTE: Option OBS changed to 100.
+NOTE: Library MYLIB_DM assigned path=..
+NOTE: DATA MYLIB_DM.EMPLOYEE_DS
+
+NOTE: Processing inline DATALINES (14 lines)
+
+NOTE: The data set MYLIB_DM.EMPLOYEE_DS has 14 observations and 6 variables.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA MYLIB_DM.DEPARTMENT_DS
+
+NOTE: Processing inline DATALINES (4 lines)
+
+NOTE: The data set MYLIB_DM.DEPARTMENT_DS has 4 observations and 3 variables.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SQL 
+
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: Table MYLIB_DM.EMPLOYEE_BK_DS created.
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: 3 row(s) updated in MYLIB_DM.EMPLOYEE_DS.
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: Table MYLIB_DM.EMPLOYEE_BK_DS created.
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: 3 row(s) updated in MYLIB_DM.EMPLOYEE_DS.
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: Table MYLIB_DM.EMPLOYEE_DS created.
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: 1 row(s) inserted into MYLIB_DM.DEPARTMENT_DS.
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: Table MYLIB_DM.EMPLOYEE_BK_DS created.
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: 1 row(s) deleted from MYLIB_DM.EMPLOYEE_DS.
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: Table MYLIB_DM.EMPLOYEE_BK_DS created.
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: 4 row(s) deleted from MYLIB_DM.EMPLOYEE_DS.
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: Table MYLIB_DM.EMPLOYEE_BK_DS created.
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: 2 row(s) deleted from MYLIB_DM.EMPLOYEE_DS.
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: 3 row(s) deleted from MYLIB_DM.EMPLOYEE_DS.
+NOTE: PROC SQL statement used.

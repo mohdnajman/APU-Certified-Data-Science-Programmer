@@ -1,0 +1,66 @@
+                                                   The Jenner System               10:28 Friday, November 27, 2026     1
+
+emp_name    emp_job       emp_no  emp_salary  emp_comm   dept_no
+----------------------------------------------------------------
+JONES       MANAGER         7566        2975         .        20
+BLAKE       MANAGER         7698        2850         .        30
+CLARK       MANAGER         7782        2450         .        10
+                                                   The Jenner System               10:28 Friday, November 27, 2026     2
+
+emp_name    emp_job       emp_no  emp_salary  emp_comm   dept_no
+----------------------------------------------------------------
+JONES       MANAGER         7566      3272.5         .        20
+BLAKE       MANAGER         7698        3135         .        30
+CLARK       MANAGER         7782        2695         .        10
+                                                   The Jenner System               10:28 Friday, November 27, 2026     3
+
+Department
+    Number
+----------
+        10
+                                                   The Jenner System               10:28 Friday, November 27, 2026     4
+
+emp_name    emp_job       emp_no  emp_salary  emp_comm   dept_no
+----------------------------------------------------------------
+CLARK       MANAGER         7782        2695         .        10
+KING        PRESIDENT       7839        5000         .        10
+MILLER      CLERK           7934        1300         .        10
+                                                   The Jenner System               10:28 Friday, November 27, 2026     5
+
+emp_name    emp_job       emp_no  emp_salary  emp_comm   dept_no
+----------------------------------------------------------------
+CLARK       MANAGER         7782        2695         .        10
+KING        PRESIDENT       7839        5000         .        10
+MILLER      CLERK           7934        1300         .        10
+                                                   The Jenner System               10:28 Friday, November 27, 2026     6
+
+emp_name    emp_job       emp_no  emp_salary  emp_comm   dept_no
+----------------------------------------------------------------
+JONES       MANAGER         7566      3272.5         .        20
+                                                   The Jenner System               10:28 Friday, November 27, 2026     7
+
+emp_name    emp_job       emp_no  emp_salary  emp_comm   dept_no
+----------------------------------------------------------------
+WARD        SALESMAN        7521        1250       500        30
+MARTIN      SALESMAN        7654        1250      1400        30
+TURNER      SALESMAN        7844        1500         0        30
+MILLER      CLERK           7934        1300         .        10
+                                                   The Jenner System               10:28 Friday, November 27, 2026     8
+
+emp_name    emp_job       emp_no  emp_salary  emp_comm   dept_no
+----------------------------------------------------------------
+CLARK       MANAGER         7782        2695         .        10
+KING        PRESIDENT       7839        5000         .        10
+                                                   The Jenner System               10:28 Friday, November 27, 2026     9
+
+Department
+    Number
+----------
+        30
+                                                   The Jenner System               10:28 Friday, November 27, 2026    10
+
+emp_name    emp_job       emp_no  emp_salary  emp_comm   dept_no
+----------------------------------------------------------------
+ALLEN       SALESMAN        7499        1600       300        30
+BLAKE       MANAGER         7698        3135         .        30
+JAMES       CLERK           7900         950         .        30

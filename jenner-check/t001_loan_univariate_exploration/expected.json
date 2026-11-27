@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-11-27T10:28:40.315307Z",
+  "_captured_run_id": "r_8778d30000a14992afe375b8609980f0",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: PROC FREQ statement used.",
+    "NOTE: PROC MEANS statement used.",
+    "NOTE: The data set MYLIB_DM.TRAINING_DS has 90 observations and 9 variables."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}
