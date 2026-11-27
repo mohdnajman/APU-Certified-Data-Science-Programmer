@@ -1,0 +1,23 @@
+{
+  "_captured_at": "2026-11-27T10:28:40.321174Z",
+  "_captured_run_id": "r_c5836f468d5e4ca1a12c853c9c00b9e3",
+  "status": "ok",
+  "exit_code": 1,
+  "log_contains": [
+    "NOTE: PROC SQL statement used.",
+    "NOTE: PROC LOGISTIC data=MYLIB_DM.TRAINING_DS",
+    "NOTE: PROC STDIZE: Wrote 90 rows to MYLIB_DM.TRAINING_DS",
+    "NOTE: Table MYLIB_DM.TRAINING_GENDER_DS created."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": [
+      "There is possibly a quasi-complete separation of data points. The maximum likelihood estimate may not exist.",
+      "The LOGISTIC procedure continues in spite of the above warning. Results shown are based on the last maximum likelihood iteration. Validity of the model fit is questionable."
+    ]
+  }
+}

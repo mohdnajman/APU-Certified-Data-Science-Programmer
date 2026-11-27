@@ -1,0 +1,461 @@
+                                                   The Jenner System               10:27 Friday, November 27, 2026     1
+
+                                                 The CONTENTS Procedure
+
+                         Data Set Name        MYLIB_DM.TRAINING_DS    Observations          90
+                         Member Type          DATA                    Variables             9
+                         Engine               PARQUET                 Indexes               0
+                         Created              11/27/2026 10:27:41     Deleted Observations  0
+                         Last Modified        11/27/2026 10:27:41     Compressed            NO
+                         Protection                                   Sorted                NO
+                         Data Set Type
+                         Label
+                         Encoding             utf-8  Unicode (UTF-8)
+
+
+                                            Engine/Host Dependent Information
+
+                                       Filename           ././training_ds.parquet
+                                       Inode Number       908777
+                                       Access Permission  rw-r--r--
+                                       File Size (bytes)  7989
+
+
+                                      Alphabetic List of Variables and Attributes
+
+                                        #    Variable                Type    Len
+
+                                        6    CANDIDATE_INCOME        Num       8
+                                        2    GENDER                  Char      8
+                                        7    LOAN_AMOUNT             Num       8
+                                        5    LOAN_APPROVAL_STATUS    Char      1
+                                        8    LOAN_DURATION           Num       8
+                                        9    LOAN_HISTORY            Num       8
+                                        4    LOAN_LOCATION           Char     10
+                                        3    MARITAL_STATUS          Char     12
+                                        1    SME_LOAN_ID_NO          Char     10
+
+                                                   The Jenner System               10:27 Friday, November 27, 2026     2
+
+                                                 The CONTENTS Procedure
+
+                          Data Set Name        MYLIB_DM.TESTING_DS    Observations          90
+                          Member Type          DATA                   Variables             9
+                          Engine               PARQUET                Indexes               0
+                          Created              11/27/2026 10:27:41    Deleted Observations  0
+                          Last Modified        11/27/2026 10:27:41    Compressed            NO
+                          Protection                                  Sorted                NO
+                          Data Set Type
+                          Label
+                          Encoding             utf-8  Unicode (UTF-8)
+
+
+                                           Engine/Host Dependent Information
+
+                                       Filename           ././testing_ds.parquet
+                                       Inode Number       908778
+                                       Access Permission  rw-r--r--
+                                       File Size (bytes)  7923
+
+
+                                      Alphabetic List of Variables and Attributes
+
+                                        #    Variable                Type    Len
+
+                                        6    CANDIDATE_INCOME        Num       8
+                                        2    GENDER                  Char      8
+                                        7    LOAN_AMOUNT             Num       8
+                                        5    LOAN_APPROVAL_STATUS    Char      1
+                                        8    LOAN_DURATION           Num       8
+                                        9    LOAN_HISTORY            Num       8
+                                        4    LOAN_LOCATION           Char     10
+                                        3    MARITAL_STATUS          Char     12
+                                        1    SME_LOAN_ID_NO          Char     10
+
+                      3.3 SAS CODES to do Univariate Analysis of the Categorical variable: GENDER                      3
+                                                                                   10:27 Friday, November 27, 2026
+
+                                                   The FREQ Procedure
+
+                                                                Cumulative    Cumulative
+                            GENDER    Frequency    Percent     Frequency      Percent
+                            ---------------------------------------------------------------
+                            Female            7      7.95            7         7.95
+                            Male             81     92.05           88       100.00
+
+                                                 Frequency Missing = 2
+               3.4 SAS CODES to do Univariate Analysis of the Categorical variable: LOAN_APPROVAL_STATUS               4
+                                                                                   10:27 Friday, November 27, 2026
+
+                                                   The FREQ Procedure
+
+                                                                       Cumulative    Cumulative
+                     LOAN_APPROVAL_STATUS    Frequency    Percent     Frequency      Percent
+                     -----------------------------------------------------------------------------
+                     N                              26     28.89           26        28.89
+                     Y                              64     71.11           90       100.00
+
+                                                     Good Variable
+                   3.5 SAS CODES to do Univariate Analysis of the Categorical variable: LOAN_HISTORY                   5
+                                                                                   10:27 Friday, November 27, 2026
+
+                                                   The FREQ Procedure
+
+                                                                   Cumulative    Cumulative
+                         LOAN_HISTORY    Frequency    Percent     Frequency      Percent
+                         ---------------------------------------------------------------------
+                         0                      12     14.29           12        14.29
+                         1                      72     85.71           84       100.00
+
+                                                 Frequency Missing = 6
+
+                                                     Good Variable
+                   3.6 SAS CODES to do Univariate Analysis of the Categorical variable: LOAN_LOCATION                  6
+                                                                                   10:27 Friday, November 27, 2026
+
+                                                   The FREQ Procedure
+
+                                                                    Cumulative    Cumulative
+                         LOAN_LOCATION    Frequency    Percent     Frequency      Percent
+                         ----------------------------------------------------------------------
+                         City                    34     37.78           34        37.78
+                         Town                    32     35.56           66        73.33
+                         Village                 24     26.67           90       100.00
+
+                                                     Good Variable
+                  3.7 SAS CODES to do Univariate Analysis of the Categorical variable: MARITAL_STATUS                  7
+                                                                                   10:27 Friday, November 27, 2026
+
+                                                   The FREQ Procedure
+
+                                                                    Cumulative    Cumulative
+                        MARITAL_STATUS    Frequency    Percent     Frequency      Percent
+                        -----------------------------------------------------------------------
+                        Married                  65     72.22           65        72.22
+                        Not Married              25     27.78           90       100.00
+
+                                                     Good Variable
+                   3.8 SAS CODES to do Univariate Analysis of the Categorical variable: LOAN_DURATION                  8
+                                                                                   10:27 Friday, November 27, 2026
+
+                                                   The FREQ Procedure
+
+                                                                    Cumulative    Cumulative
+                         LOAN_DURATION    Frequency    Percent     Frequency      Percent
+                         ----------------------------------------------------------------------
+                         12                       1      1.19            1         1.19
+                         36                       1      1.19            2         2.38
+                         120                      2      2.38            4         4.76
+                         180                      9     10.71           13        15.48
+                         240                      1      1.19           14        16.67
+                         300                      2      2.38           16        19.05
+                         360                     66     78.57           82        97.62
+                         480                      2      2.38           84       100.00
+
+                                                 Frequency Missing = 6
+
+                                                     Good Variable
+                    3.9 SAS CODES to do Univariate Analysis of the Categorical variable: LOAN_AMOUNT                   9
+                                                                                   10:27 Friday, November 27, 2026
+
+                                                   The FREQ Procedure
+
+                                                                   Cumulative    Cumulative
+                          LOAN_AMOUNT    Frequency    Percent     Frequency      Percent
+                          --------------------------------------------------------------------
+                          17                     1      1.22            1         1.22
+                          25                     1      1.22            2         2.44
+                          30                     1      1.22            3         3.66
+                          35                     1      1.22            4         4.88
+                          42                     1      1.22            5         6.10
+                          50                     2      2.44            7         8.54
+                          63                     1      1.22            8         9.76
+                          67                     2      2.44           10        12.20
+                          71                     1      1.22           11        13.41
+                          73                     1      1.22           12        14.63
+                          74                     1      1.22           13        15.85
+                          75                     1      1.22           14        17.07
+                          80                     1      1.22           15        18.29
+                          88                     1      1.22           16        19.51
+                          95                     1      1.22           17        20.73
+                          96                     4      4.88           21        25.61
+                          100                    3      3.66           24        29.27
+                          103                    1      1.22           25        30.49
+                          104                    1      1.22           26        31.71
+                          105                    1      1.22           27        32.93
+                          110                    4      4.88           31        37.80
+                          111                    2      2.44           33        40.24
+                          112                    2      2.44           35        42.68
+                          113                    1      1.22           36        43.90
+                          115                    3      3.66           39        47.56
+                          116                    1      1.22           40        48.78
+                          120                    3      3.66           43        52.44
+                          124                    1      1.22           44        53.66
+                          128                    2      2.44           46        56.10
+                          131                    1      1.22           47        57.32
+                          133                    1      1.22           48        58.54
+                          135                    1      1.22           49        59.76
+                          138                    1      1.22           50        60.98
+                          141                    1      1.22           51        62.20
+                          144                    1      1.22           52        63.41
+                          150                    3      3.66           55        67.07
+                          152                    1      1.22           56        68.29
+                          153                    1      1.22           57        69.51
+                          155                    1      1.22           58        70.73
+                          157                    1      1.22           59        71.95
+                          158                    2      2.44           61        74.39
+                          160                    1      1.22           62        75.61
+                          172                    2      2.44           64        78.05
+                          180                    1      1.22           65        79.27
+                          181                    1      1.22           66        80.49
+                          185                    2      2.44           68        82.93
+                          187                    1      1.22           69        84.15
+                          188                    2      2.44           71        86.59
+                          214                    1      1.22           72        87.80
+                          228                    1      1.22           73        89.02
+                          230                    1      1.22           74        90.24
+                          234                    1      1.22           75        91.46
+                          250                    1      1.22           76        92.68
+                          259                    1      1.22           77        93.90
+                          275                    1      1.22           78        95.12
+                          315                    1      1.22           79        96.34
+                          370                    1      1.22           80        97.56
+                          400                    1      1.22           81        98.78
+                          480                    1      1.22           82       100.00
+
+                                                 Frequency Missing = 8
+
+                                                     Good Variable
+                 3.10 SAS CODES to do Univariate Analysis of the Categorical variable: CANDIDATE_INCOME               10
+                                                                                   10:27 Friday, November 27, 2026
+
+                                                   The FREQ Procedure
+
+                                                                     Cumulative    Cumulative
+                       CANDIDATE_INCOME    Frequency    Percent     Frequency      Percent
+                       -------------------------------------------------------------------------
+                       1000                        1      1.11            1         1.11
+                       1299                        1      1.11            2         2.22
+                       1442                        1      1.11            3         3.33
+                       1500                        1      1.11            4         4.44
+                       1538                        1      1.11            5         5.56
+                       1828                        1      1.11            6         6.67
+                       2132                        1      1.11            7         7.78
+                       2167                        1      1.11            8         8.89
+                       2237                        1      1.11            9        10.00
+                       2253                        1      1.11           10        11.11
+                       2275                        1      1.11           11        12.22
+                       2383                        1      1.11           12        13.33
+                       2395                        1      1.11           13        14.44
+                       2400                        1      1.11           14        15.56
+                       2454                        1      1.11           15        16.67
+                       2500                        1      1.11           16        17.78
+                       2583                        2      2.22           18        20.00
+                       2600                        1      1.11           19        21.11
+                       2620                        1      1.11           20        22.22
+                       2699                        1      1.11           21        23.33
+                       2875                        1      1.11           22        24.44
+                       3015                        1      1.11           23        25.56
+                       3036                        1      1.11           24        26.67
+                       3052                        1      1.11           25        27.78
+                       3069                        1      1.11           26        28.89
+                       3173                        1      1.11           27        30.00
+                       3208                        1      1.11           28        31.11
+                       3254                        1      1.11           29        32.22
+                       3340                        1      1.11           30        33.33
+                       3358                        1      1.11           31        34.44
+                       3365                        1      1.11           32        35.56
+                       3399                        1      1.11           33        36.67
+                       3410                        1      1.11           34        37.78
+                       3459                        1      1.11           35        38.89
+                       3497                        1      1.11           36        40.00
+                       3500                        1      1.11           37        41.11
+                       3572                        1      1.11           38        42.22
+                       3588                        1      1.11           39        43.33
+                       3601                        1      1.11           40        44.44
+                       3667                        1      1.11           41        45.56
+                       3704                        1      1.11           42        46.67
+                       3716                        1      1.11           43        47.78
+                       3727                        1      1.11           44        48.89
+                       3750                        1      1.11           45        50.00
+                       3812                        1      1.11           46        51.11
+                       3814                        1      1.11           47        52.22
+                       3859                        1      1.11           48        53.33
+                       3875                        1      1.11           49        54.44
+                       3988                        1      1.11           50        55.56
+                       4000                        1      1.11           51        56.67
+                       4053                        1      1.11           52        57.78
+                       4188                        1      1.11           53        58.89
+                       4333                        1      1.11           54        60.00
+                       4600                        1      1.11           55        61.11
+                       4625                        1      1.11           56        62.22
+                       4652                        1      1.11           57        63.33
+                       4683                        1      1.11           58        64.44
+                       4695                        1      1.11           59        65.56
+                       4708                        1      1.11           60        66.67
+                       4755                        1      1.11           61        67.78
+                       4931                        1      1.11           62        68.89
+                       4945                        1      1.11           63        70.00
+                       5042                        1      1.11           64        71.11
+                       5185                        1      1.11           65        72.22
+                       5250                        1      1.11           66        73.33
+                       5829                        1      1.11           67        74.44
+                       5849                        1      1.11           68        75.56
+                       5935                        1      1.11           69        76.67
+                       5955                        1      1.11           70        77.78
+                       6050                        1      1.11           71        78.89
+                       6065                        1      1.11           72        80.00
+                       6250                        2      2.22           74        82.22
+                       6417                        1      1.11           75        83.33
+                       6700                        1      1.11           76        84.44
+                       6782                        1      1.11           77        85.56
+                       6822                        1      1.11           78        86.67
+                       7901                        1      1.11           79        87.78
+                       7933                        1      1.11           80        88.89
+                       8333                        1      1.11           81        90.00
+                       9083                        1      1.11           82        91.11
+                       9328                        1      1.11           83        92.22
+                       10000                       1      1.11           84        93.33
+                       10408                       1      1.11           85        94.44
+                       10833                       1      1.11           86        95.56
+                       13650                       1      1.11           87        96.67
+                       17500                       1      1.11           88        97.78
+                       20233                       1      1.11           89        98.89
+                       23803                       1      1.11           90       100.00
+
+                                                     Good Variable
+               3.11 SAS CODES to do Univariate Analysis of the Categorical variable: LOAN_APPROVAL_STATUS             11
+                                                                                   10:27 Friday, November 27, 2026
+
+                                                   The FREQ Procedure
+
+                                                                       Cumulative    Cumulative
+                     LOAN_APPROVAL_STATUS    Frequency    Percent     Frequency      Percent
+                     -----------------------------------------------------------------------------
+
+                                                 Frequency Missing = 90
+
+                                                     Good Variable
+                   3.12 SAS CODES to do Univariate Analysis of the Categorical variable: LOAN_HISTORY                 12
+                                                                                   10:27 Friday, November 27, 2026
+
+                                                   The FREQ Procedure
+
+                                                                   Cumulative    Cumulative
+                         LOAN_HISTORY    Frequency    Percent     Frequency      Percent
+                         ---------------------------------------------------------------------
+                         0                      14     17.07           14        17.07
+                         1                      68     82.93           82       100.00
+
+                                                 Frequency Missing = 8
+
+                                                     Good Variable
+                  3.13 SAS CODES to do Univariate Analysis of the Categorical variable: LOAN_LOCATION                 13
+                                                                                   10:27 Friday, November 27, 2026
+
+                                                   The FREQ Procedure
+
+                                                                    Cumulative    Cumulative
+                         LOAN_LOCATION    Frequency    Percent     Frequency      Percent
+                         ----------------------------------------------------------------------
+                         City                    38     42.22           38        42.22
+                         Town                    33     36.67           71        78.89
+                         Village                 19     21.11           90       100.00
+
+                                                     Good Variable
+                  3.14 SAS CODES to do Univariate Analysis of the Categorical variable: MARITAL_STATUS                14
+                                                                                   10:27 Friday, November 27, 2026
+
+                                                   The FREQ Procedure
+
+                                                                    Cumulative    Cumulative
+                        MARITAL_STATUS    Frequency    Percent     Frequency      Percent
+                        -----------------------------------------------------------------------
+                        Married                  50     55.56           50        55.56
+                        Not Married              40     44.44           90       100.00
+
+                                                     Good Variable
+                STEP 3.15.1: Univariate Analysis of the continuous  or numerical variables - LOAN_AMOUNT              15
+                                                                                   10:27 Friday, November 27, 2026
+
+                                                  The MEANS Procedure
+
+                                            Analysis Variable : LOAN_AMOUNT
+
+               N    N Miss         Minimum         Maximum            Mean          Median         Std Dev
+              --------------------------------------------------------------------------------------------
+              82         8      17.0000000     480.0000000     139.7073171     120.0000000      79.2047648
+              --------------------------------------------------------------------------------------------
+
+
+                                          22 Observations with missing values
+             STEP 3.15.2: Univariate Analysis of the continuous  or numerical variables - CANDIDATE_INCOME            16
+                                                                                   10:27 Friday, November 27, 2026
+
+                                                  The MEANS Procedure
+
+                                         Analysis Variable : CANDIDATE_INCOME
+
+              N    N Miss         Minimum          Maximum            Mean          Median         Std Dev
+             ---------------------------------------------------------------------------------------------
+             90         0    1000.0000000    23803.0000000    4934.7222222    3781.0000000    3731.3819262
+             ---------------------------------------------------------------------------------------------
+
+
+                                                     Good variable
+               STEP 3.15.3: Univariate Analysis of the continuous  or numerical variables - LOAN_DURATION             17
+                                                                                   10:27 Friday, November 27, 2026
+
+                                                  The MEANS Procedure
+
+                                           Analysis Variable : LOAN_DURATION
+
+               N    N Miss         Minimum         Maximum            Mean          Median         Std Dev
+              --------------------------------------------------------------------------------------------
+              84         6      12.0000000     480.0000000     327.0000000     360.0000000      84.4403261
+              --------------------------------------------------------------------------------------------
+
+
+                                          14 Observations with missing values
+                STEP 3.16.1: Univariate Analysis of the continuous  or numerical variables - LOAN_AMOUNT              18
+                                                                                   10:27 Friday, November 27, 2026
+
+                                                  The MEANS Procedure
+
+                                            Analysis Variable : LOAN_AMOUNT
+
+               N    N Miss         Minimum         Maximum            Mean          Median         Std Dev
+              --------------------------------------------------------------------------------------------
+              86         4      46.0000000     297.0000000     133.6744186     130.0000000      43.9851424
+              --------------------------------------------------------------------------------------------
+
+
+                                           5 Observations with missing values
+               STEP 3.16.2: Univariate Analysis of the continuous  or numerical variables - LOAN_DURATION             19
+                                                                                   10:27 Friday, November 27, 2026
+
+                                                  The MEANS Procedure
+
+                                           Analysis Variable : LOAN_DURATION
+
+               N    N Miss         Minimum         Maximum            Mean          Median         Std Dev
+              --------------------------------------------------------------------------------------------
+              84         6       6.0000000     480.0000000     347.5000000     360.0000000      68.2277370
+              --------------------------------------------------------------------------------------------
+
+
+                                           6 Observations with missing values
+             STEP 3.16.3: Univariate Analysis of the continuous  or numerical variables - CANDIDATE_INCOME            20
+                                                                                   10:27 Friday, November 27, 2026
+
+                                                  The MEANS Procedure
+
+                                         Analysis Variable : CANDIDATE_INCOME
+
+              N    N Miss         Minimum          Maximum            Mean          Median         Std Dev
+             ---------------------------------------------------------------------------------------------
+             90         0       0.0000000    29167.0000000    4619.0444444    3458.5000000    3737.8573593
+             ---------------------------------------------------------------------------------------------
+
+
+                                                     Good variable

@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_sql_employee_queries",
+  "source_file": "APU Certified Data Science Programmer/SQL Data Management/my_sas_program.sas",
+  "source_blob_sha": "2db6c13e70582a09e2b6cd63686ed73276a20bf4",
+  "source_commit": "4265e1eeabaad380a65f43aaf935ebc0624cfcdf",
+  "notes": "Unmodified lines 1-527: PROC SQL query exercises of the source script; inline datalines in autoexec.sas stand in for the course data."
+}

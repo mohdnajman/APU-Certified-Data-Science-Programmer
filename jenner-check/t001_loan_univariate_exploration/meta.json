@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_loan_univariate_exploration",
+  "source_file": "APU Certified Data Science Programmer/SQL Data Management/loan_approval_project.sas",
+  "source_blob_sha": "87ccb645f2939e0ed689aa3905dbffa7084e1d82",
+  "source_commit": "4265e1eeabaad380a65f43aaf935ebc0624cfcdf",
+  "notes": "Unmodified lines 1-352: PROC CONTENTS/FREQ/SGPLOT/MEANS univariate exploration of the source script; inline datalines in autoexec.sas stand in for the course data."
+}

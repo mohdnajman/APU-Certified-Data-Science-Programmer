@@ -1,0 +1,167 @@
+                       4.1.1 List the details of the applicants (observation) with missing values                      1
+                                                                                   10:27 Friday, November 27, 2026
+
+SME_LOAN_ID_NO  GENDER    MARITAL_STATUS  LOAN_LOCATION  LOAN_APPROVAL_STATUS  CANDIDATE_INCOME  LOAN_AMOUNT  LOAN_DURATION  LOAN_HISTORY
+-----------------------------------------------------------------------------------------------------------------------------------------
+LP001448                  Married         Village        Y                                23803          370            360             1
+LP001050                  Married         Village        N                                 3365          112            360             0
+                       4.1.1 List the details of the applicants (observation) with missing values                      2
+                                                                                   10:27 Friday, November 27, 2026
+
+Total of
+ missing
+   value
+--------
+       2
+                       4.1.1 List the details of the applicants (observation) with missing values                      3
+                                                                                   10:27 Friday, November 27, 2026
+
+              Number of
+observations/applicants
+-----------------------
+                      8
+                                        STEP 6.1.1: Find the missing loan_amount                                       4
+                                                                                   10:27 Friday, November 27, 2026
+
+SME_LOAN_ID_NO  GENDER    MARITAL_STATUS  LOAN_LOCATION  LOAN_APPROVAL_STATUS  CANDIDATE_INCOME  LOAN_AMOUNT  LOAN_DURATION  LOAN_HISTORY
+-----------------------------------------------------------------------------------------------------------------------------------------
+LP001002        Male      Not Married     City           Y                                 5849            .            360             1
+LP001106        Male      Married         City           Y                                 2275            .            360             1
+LP001213        Male      Married         Village        N                                 4945            .            360             0
+LP002054        Male      Married         Village        Y                                 3601            .            360             1
+LP001266        Male      Married         Town           Y                                 2395            .            360             1
+LP001326        Male      Not Married     City           N                                 6782            .            360             .
+LP001350        Male      Married         City           Y                                13650            .            360             1
+LP001356        Male      Married         Town           Y                                 4652            .            360             1
+                                        STEP 6.1.1: Find the missing loan_amount                                       5
+                                                                                   10:27 Friday, November 27, 2026
+
+   Number of
+observations
+------------
+           8
+                                        STEP 6.1.1: Find the missing loan_amount                                       6
+                                                                                   10:27 Friday, November 27, 2026
+
+   Number of
+observations
+------------
+           0
+                                            STEP 7.1.1: Missing loan_amount        10:27 Friday, November 27, 2026     7
+
+SME_LOAN_ID_NO  GENDER    MARITAL_STATUS  LOAN_LOCATION  LOAN_APPROVAL_STATUS  CANDIDATE_INCOME  LOAN_AMOUNT  LOAN_DURATION  LOAN_HISTORY
+-----------------------------------------------------------------------------------------------------------------------------------------
+LP001415        Male      Married         Town                                             3413            .            360             1
+LP001542        Female    Married         Town                                             2262            .            480             0
+LP002057        Male      Married         Village                                         13083            .            360             1
+LP002360        Male      Married         City                                            10000            .            360             1
+                                                  Missing loan_amount              10:27 Friday, November 27, 2026     8
+
+       No of
+observations
+------------
+           0
+                                                  Missing loan_amount              10:27 Friday, November 27, 2026     9
+
+                                                 The LOGISTIC Procedure
+                                                   Model Information               
+
+                                    Data Set                   MYLIB_DM.TRAINING_DS
+                                    Response Variable          LOAN_APPROVAL_STATUS
+                                    Number of Response Levels  2                   
+                                    Model                      binary logit        
+                                    Optimization Technique     Fisher's scoring    
+
+                                         Number of Observations Read        90
+                                         Number of Observations Used        78
+
+                                                    Response Profile                  
+                                    Probability modeled is LOAN_APPROVAL_STATUS='N'   
+
+                                  Ordered Value  LOAN_APPROVAL_STATUS  Total Frequency
+                                  -------------  --------------------  ---------------
+                                              1  N                                  21
+                                              2  Y                                  57
+
+                                                Class Level Information            
+
+                                                                  Design Variables
+                                    Class           Value                          
+                                    --------------  -----------  --------  --------
+                                    GENDER          Female              1          
+                                                    Male               -1          
+                                    LOAN_LOCATION   City                1         0
+                                                    Town                0         1
+                                                    Village            -1        -1
+                                    LOAN_HISTORY    0                   1          
+                                                    1                  -1          
+                                    MARITAL_STATUS  Married             1          
+                                                    Not Married        -1          
+
+                                                Model Convergence Status             
+
+                                   Quasi-complete separation of data points detected.
+
+WARNING: The maximum likelihood estimate may not exist.                                                                                                                              
+WARNING: The LOGISTIC procedure continues in spite of the above warning. Results shown are based on the last maximum likelihood iteration. Validity of the model fit is questionable.
+
+                                                 Model Fit Statistics                
+
+                                  Criterion  Intercept Only  Intercept and Covariates
+                                  ---------  --------------  ------------------------
+                                  AIC                92.869                    67.597
+                                  SC                 95.225                    86.451
+                                  -2 Log L           90.869                    51.597
+
+                                         Testing Global Null Hypothesis: BETA=0      
+
+                                   Test              Chi-Square        DF  Pr > ChiSq
+                                   ----------------  ----------  --------  ----------
+                                   Likelihood Ratio     39.2716         7      <.0001
+                                   Score                35.7872         7      <.0001
+                                   Wald                 10.1081         7      0.1825
+
+                                              Type 3 Analysis of Effects              
+
+                                 Effect                DF  Wald Chi-Square  Pr > ChiSq
+                                 --------------  --------  ---------------  ----------
+                                 GENDER                 1           1.2333      0.2668
+                                 LOAN_LOCATION          2           3.0283      0.2200
+                                 LOAN_HISTORY           1           0.0072      0.9325
+                                 MARITAL_STATUS         1           6.8822      0.0087
+                                 LOAN_AMOUNT            1           1.8921      0.1690
+                                 LOAN_DURATION          1           0.0041      0.9488
+
+                                       Analysis of Maximum Likelihood Estimates                         
+
+               Parameter                       DF  Estimate  Standard Error  Wald Chi-Square  Pr > ChiSq
+               --------------  --------  --------  --------  --------------  ---------------  ----------
+               Intercept                        1    4.4941         89.8042           0.0025      0.9601
+               GENDER          Female           1   -0.7616          0.6858           1.2333      0.2668
+               LOAN_LOCATION   City             1    0.8908          0.5245           2.8842      0.0895
+               LOAN_LOCATION   Town             1    0.0462          0.5781           0.0064      0.9362
+               LOAN_HISTORY    0                1    7.6001         89.7892           0.0072      0.9325
+               MARITAL_STATUS  Married          1   -1.0537          0.4016           6.8822      0.0087
+               LOAN_AMOUNT                      1   0.00585         0.00425           1.8921      0.1690
+               LOAN_DURATION                    1  2.841E-4         0.00442           0.0041      0.9488
+
+                                                 Odds Ratio Estimates                               
+
+                                                                          95% Wald Confidence Limits
+                   Effect                                 Point Estimate                            
+                   -------------------------------------  --------------  ------------  ------------
+                   GENDER Female vs Male                           0.218         0.015         3.206
+                   LOAN_LOCATION City vs Village                   6.220         0.711        54.424
+                   LOAN_LOCATION Town vs Village                   2.673         0.263        27.218
+                   LOAN_HISTORY 0 vs 1                          >999.999        <0.001      >999.999
+                   MARITAL_STATUS Married vs Not Married           0.122         0.025         0.587
+                   LOAN_AMOUNT                                     1.006         0.998         1.014
+                   LOAN_DURATION                                   1.000         0.992         1.009
+
+                             Association of Predicted Probabilities and Observed Responses
+
+                             Percent Concordant      89.1  Somers' D     0.781
+                             Percent Discordant      10.9  Gamma         0.781
+                             Percent Tied             0.0  Tau-a         0.311
+                             Pairs                   1197  c             0.891
+

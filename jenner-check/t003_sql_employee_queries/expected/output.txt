@@ -1,0 +1,332 @@
+                             List employee number and employee name from the datasets given                            1
+                                                                                   10:28 Friday, November 27, 2026
+                                                        APU,TPM
+
+Employee
+  Number  Name
+--------------------
+    7369  SMITH
+    7499  ALLEN
+    7521  WARD
+    7566  JONES
+    7654  MARTIN
+    7698  BLAKE
+    7782  CLARK
+    7788  SCOTT
+    7839  KING
+    7844  TURNER
+    7876  ADAMS
+    7900  JAMES
+    7902  FORD
+    7934  MILLER
+
+                                       ------------------End--------------------
+                           List department number and department name from the datasets given                          2
+                                                                                   10:28 Friday, November 27, 2026
+
+Department
+    Number  Name
+--------------------------------
+        10  ACCOUNTING
+        20  RESEARCH
+        30  SALES
+        40  OPERATIONS
+
+                                       ------------------End--------------------
+                              List the details of all employees found in the datasets give                             3
+                                                                                   10:28 Friday, November 27, 2026
+
+emp_name    emp_job       emp_no  emp_salary  emp_comm   dept_no
+----------------------------------------------------------------
+SMITH       CLERK           7369         800         .        20
+ALLEN       SALESMAN        7499        1600       300        30
+WARD        SALESMAN        7521        1250       500        30
+JONES       MANAGER         7566        2975         .        20
+MARTIN      SALESMAN        7654        1250      1400        30
+BLAKE       MANAGER         7698        2850         .        30
+CLARK       MANAGER         7782        2450         .        10
+SCOTT       ANALYST         7788        3000         .        20
+KING        PRESIDENT       7839        5000         .        10
+TURNER      SALESMAN        7844        1500         0        30
+ADAMS       CLERK           7876        1100         .        20
+JAMES       CLERK           7900         950         .        30
+FORD        ANALYST         7902        3000         .        20
+MILLER      CLERK           7934        1300         .        10
+
+                                       ------------------End--------------------
+                  List the details of all managers or salesmen whose salary is between 1500 and 2500.                  4
+                                                                                   10:28 Friday, November 27, 2026
+
+emp_name    emp_job       emp_no  emp_salary  emp_comm   dept_no
+----------------------------------------------------------------
+ALLEN       SALESMAN        7499        1600       300        30
+CLARK       MANAGER         7782        2450         .        10
+TURNER      SALESMAN        7844        1500         0        30
+
+                                       ------------------End--------------------
+               List the employee number and name of all salesmen who work in the department number 30 and              5
+                                                                                   10:28 Friday, November 27, 2026
+                                     their salary is greater than or equal to 1500
+
+Employee
+  Number  Name
+--------------------
+    7499  ALLEN
+    7844  TURNER
+
+                                       ------------------End--------------------
+               List the employee number and name of all salesmen who work in the department number 30 and              6
+                                                                                   10:28 Friday, November 27, 2026
+                                     their salary is greater than or equal to 1500
+
+emp_name
+----------
+JONES
+JAMES
+
+                                       ------------------End--------------------
+                             List the employees name whose name starts with the letter [J]                             7
+                                                                                   10:28 Friday, November 27, 2026
+
+Employee
+Name
+----------
+ALLEN
+ADAMS
+
+                                       ------------------End--------------------
+                             List the employees name whose name starts with the letter [J]                             8
+                                                                                   10:28 Friday, November 27, 2026
+
+Employee
+Name
+----------
+TURNER
+MILLER
+
+                                       ------------------End--------------------
+                             List the employees name whose name starts with the letter [J]                             9
+                                                                                   10:28 Friday, November 27, 2026
+
+Employee
+Name
+----------
+MARTIN
+
+                                       ------------------End--------------------
+                             List the employees name whose name starts with the letter [J]                            10
+                                                                                   10:28 Friday, November 27, 2026
+
+Employee
+Name
+----------
+KING
+
+                                       ------------------End--------------------
+                             List the employees name whose name starts with the letter [J]                            11
+                                                                                   10:28 Friday, November 27, 2026
+
+Employee
+Name
+----------
+SCOTT
+
+                                       ------------------End--------------------
+                             List the employees name whose name starts with the letter [J]                            12
+                                                                                   10:28 Friday, November 27, 2026
+
+emp_name    emp_job       emp_no  emp_salary  emp_comm   dept_no
+----------------------------------------------------------------
+KING        PRESIDENT       7839        5000         .        10
+SCOTT       ANALYST         7788        3000         .        20
+FORD        ANALYST         7902        3000         .        20
+JONES       MANAGER         7566        2975         .        20
+BLAKE       MANAGER         7698        2850         .        30
+CLARK       MANAGER         7782        2450         .        10
+ALLEN       SALESMAN        7499        1600       300        30
+TURNER      SALESMAN        7844        1500         0        30
+MILLER      CLERK           7934        1300         .        10
+WARD        SALESMAN        7521        1250       500        30
+MARTIN      SALESMAN        7654        1250      1400        30
+ADAMS       CLERK           7876        1100         .        20
+JAMES       CLERK           7900         950         .        30
+SMITH       CLERK           7369         800         .        20
+
+                                       ------------------End--------------------
+                             List the employees name whose name starts with the letter [J]                            13
+                                                                                   10:28 Friday, November 27, 2026
+
+Employee  Employee    Employee
+  Number  Name          Salary
+------------------------------
+    7876  ADAMS           1100
+    7499  ALLEN           1600
+    7698  BLAKE           2850
+    7782  CLARK           2450
+    7902  FORD            3000
+    7900  JAMES            950
+    7566  JONES           2975
+    7839  KING            5000
+    7654  MARTIN          1250
+    7934  MILLER          1300
+    7788  SCOTT           3000
+    7369  SMITH            800
+    7844  TURNER          1500
+    7521  WARD            1250
+
+                                       ------------------End--------------------
+                             List the employees name whose name starts with the letter [J]                            14
+                                                                                   10:28 Friday, November 27, 2026
+
+  Number
+      of
+Salesman
+--------
+       4
+
+                                       ------------------End--------------------
+                             List the employees name whose name starts with the letter [J]                            15
+                                                                                   10:28 Friday, November 27, 2026
+
+ Highest    Lowest
+  salary    salary
+------------------
+    5000       800
+
+                                       ------------------End--------------------
+                             List the employees name whose name starts with the letter [J]                            16
+                                                                                   10:28 Friday, November 27, 2026
+
+   Total
+  salary
+--------
+   11000
+
+                                       ------------------End--------------------
+                             List the employees name whose name starts with the letter [J]                            17
+                                                                                   10:28 Friday, November 27, 2026
+
+  Number
+of staff
+   whose
+salaries
+     are
+ between
+1200 and
+    1500
+--------
+       4
+
+                                       ------------------End--------------------
+               Find the name, salary, job position and department name of Salesmen, who work at ‘CHICAGO’             18
+                                                                                   10:28 Friday, November 27, 2026
+
+Employee    Employee  Job
+Name          Salary  Position    Department Name       Location
+----------------------------------------------------------------------------
+ALLEN           1600  SALESMAN    SALES                 CHICAGO
+WARD            1250  SALESMAN    SALES                 CHICAGO
+MARTIN          1250  SALESMAN    SALES                 CHICAGO
+TURNER          1500  SALESMAN    SALES                 CHICAGO
+
+                                       ------------------End--------------------
+               Find the name, salary, job position and department name of Salesmen, who work at ‘CHICAGO’             19
+                                                                                   10:28 Friday, November 27, 2026
+
+Employee
+Name          Number  Department Name         Salary
+----------------------------------------------------
+KING            7839  ACCOUNTING                5000
+SCOTT           7788  RESEARCH                  3000
+FORD            7902  RESEARCH                  3000
+
+                                       ------------------End--------------------
+               Find the name, salary, job position and department name of Salesmen, who work at ‘CHICAGO’             20
+                                                                                   10:28 Friday, November 27, 2026
+
+Department     Total
+    Number    Salary
+--------------------
+        10      8750
+        20     10875
+        30      9400
+
+                                       ------------------End--------------------
+               Find the name, salary, job position and department name of Salesmen, who work at ‘CHICAGO’             21
+                                                                                   10:28 Friday, November 27, 2026
+
+Department  Number of
+    Number  Employees
+---------------------
+        20          5
+        30          6
+
+                                       ------------------End--------------------
+               Find the name, salary, job position and department name of Salesmen, who work at ‘CHICAGO’             22
+                                                                                   10:28 Friday, November 27, 2026
+
+Department  Number of
+    Number  Employees
+---------------------
+        20          2
+
+                                       ------------------End--------------------
+               Find the name, salary, job position and department name of Salesmen, who work at ‘CHICAGO’             23
+                                                                                   10:28 Friday, November 27, 2026
+
+Employee
+Name        Job
+----------------------
+BLAKE       MANAGER
+CLARK       MANAGER
+
+                                       ------------------End--------------------
+               Find the name, salary, job position and department name of Salesmen, who work at ‘CHICAGO’             24
+                                                                                   10:28 Friday, November 27, 2026
+
+Employee
+Name
+----------
+KING
+
+                                       ------------------End--------------------
+               Find the name, salary, job position and department name of Salesmen, who work at ‘CHICAGO’             25
+                                                                                   10:28 Friday, November 27, 2026
+
+Employee    Employee    Employee
+Name        Job           Salary
+--------------------------------
+SCOTT       ANALYST         3000
+FORD        ANALYST         3000
+
+                                       ------------------End--------------------
+               Find the name, salary, job position and department name of Salesmen, who work at ‘CHICAGO’             26
+                                                                                   10:28 Friday, November 27, 2026
+
+Employee    Employee
+Name        Job         Employee Department
+--------------------------------------------
+SCOTT       ANALYST     ACCOUNTING
+SCOTT       ANALYST     RESEARCH
+SCOTT       ANALYST     SALES
+SCOTT       ANALYST     OPERATIONS
+KING        PRESIDENT   ACCOUNTING
+KING        PRESIDENT   RESEARCH
+KING        PRESIDENT   SALES
+KING        PRESIDENT   OPERATIONS
+FORD        ANALYST     ACCOUNTING
+FORD        ANALYST     RESEARCH
+FORD        ANALYST     SALES
+FORD        ANALYST     OPERATIONS
+
+                                       ------------------End--------------------
+               Find the name, salary, job position and department name of Salesmen, who work at ‘CHICAGO’             27
+                                                                                   10:28 Friday, November 27, 2026
+
+emp_name    emp_job       emp_no  emp_salary  emp_comm   dept_no
+----------------------------------------------------------------
+MARTIN      SALESMAN        7654        1250      1400        30
+TURNER      SALESMAN        7844        1500         0        30
+WARD        SALESMAN        7521        1250       500        30
+
+                                       ------------------End--------------------
